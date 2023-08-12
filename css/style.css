@@ -1,0 +1,126 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+  :root {
+    --main-bg-color: #2874f0;
+  }
+  
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    
+position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--main-bg-color);
+  font-family: 'Mukta', sans-serif;
+  z-index: 100;
+}
+   
+ 
+
+
+.navbar {
+    display: flex;
+   
+    align-items: center; /* Vertically center the content */
+    background-color: var(--main-bg-color);
+    height: 80px; /* Set an appropriate height for the navbar */
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center; /* Vertically center the content within the div */
+    padding: 0px 10px;
+  }
+  
+  .logo img {
+    max-height: 100%; /* Ensure the image doesn't exceed the height of the div */
+    max-width: 30%; /* Ensure the image doesn't exceed the width of the div */
+  }
+  
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 73px;
+}
+nav ul li{
+    list-style:none;
+    padding:0px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+nav ul li a:hover{
+    color: black;
+}
+.container{
+    min-height: calc(100vh - 60px - 12vh);
+    margin-top: 60px;
+}
+.search{
+    display: flex;
+align-content: center;
+}
+.search input{
+    width: 274px;
+    padding: 0px 39px;
+    border-radius: 10px;
+    margin: 0px 40px;
+    padding: 0px 12px;
+  
+}
+.slider{
+    margin: auto;
+    width: 144vh;
+    margin: 12px auto;
+}
+.slider img{
+    width: 1049px;
+}
+button{
+    margin: 2px 9px 1px -30px;
+    padding: 0px 22px;
+   
+    color: black;
+    background-color: #2874f0;
+}
+
+
+h2 {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #333; 
+    margin-bottom: 20px; 
+    font-family: 'Mukta', sans-serif;
+    padding: 9px 18px;
+    transition: font-size 0.3s ease, color 0.3s ease;
+
+  }
+  h2:hover {
+    font-size: 28px; /* Increase font size on hover */
+    color: #007bff; /* Change text color on hover */
+  }
+  /* Add this CSS to your stylesheet */
+
+hr {
+  border: none; /* Remove the default border */
+  height: 1px; /* Set the height of the line */
+  background-color: #ddd; /* Choose a suitable color for the line */
+  margin: 20px 0; /* Add margin above and below the line */
+}
+
+   
+   
+
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: beige;
+    font-family: 'Mukta', sans-serif;
+}

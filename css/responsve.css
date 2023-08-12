@@ -1,0 +1,28 @@
+@media (max-width: 1000px) {
+    h2 {
+      font-size: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+        margin: 12px 0px;
+    }
+  nav ul{
+    justify-content: center;
+  }
+  .search{
+    justify-content: center;
+  }
+    /* Add additional styles as needed for small screens */
+  }
+  
+  /* Medium screens */
+  @media (min-width: 768px) and (max-width: 991px) {
+    h2 {
+      font-size: 22px;
+    }
+  
+    /* Add additional styles as needed for medium screens */
+  }
